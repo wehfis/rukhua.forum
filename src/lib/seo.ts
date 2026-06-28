@@ -40,7 +40,7 @@ export function createPageMetadata({
       title,
       description,
       url,
-      siteName: "RukhUA Forum",
+      siteName: "Громадський рух розвитку України",
       locale,
       type: "website",
       images: [{ url: imageUrl }]

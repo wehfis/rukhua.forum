@@ -14,8 +14,8 @@ import { getSiteUrl } from "@/lib/env";
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: "RukhUA Forum",
-    template: "%s | RukhUA Forum"
+    default: "Громадський рух розвитку України",
+    template: "%s | Громадський рух розвитку України"
   }
 };
 
