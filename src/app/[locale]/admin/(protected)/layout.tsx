@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { ReactNode } from "react";
 import { AdminShell } from "@/components/admin/admin-shell";
 import { requireAdmin } from "@/lib/auth/admin";
-import { routing, type Locale } from "@/i18n/routing";
+import type { Locale } from "@/i18n/routing";
 
 export default async function ProtectedAdminLayout({
   children,
@@ -12,11 +12,6 @@ export default async function ProtectedAdminLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-
-  if (!routing.locales.includes(locale as Locale)) {
-    throw new Error("Invalid locale");
-  }
-
   setRequestLocale(locale);
 
   const user = await requireAdmin(locale);
