@@ -301,9 +301,9 @@ export default async function LandingPage({ params }: PageProps) {
             <h3 className="font-serif text-3xl">{t("landing.contacts.title")}</h3>
             <dl className="mt-6 space-y-4 text-sm">
               <ContactRow label={t("landing.contacts.email")} value="uahohrru@gmail.com" />
-              <ContactRow label={t("landing.contacts.phone")} value="+380 95 132 3 00" />
-              <ContactRow label={t("landing.contacts.whatsapp")} value="+380 00 000 00 00" />
-              <ContactRow label={t("landing.contacts.viber")} value="+380 00 000 00 00" />
+              <ContactRow label={t("landing.contacts.phone")} value="+380 95 132 30 33" />
+              <ContactRow label={t("landing.contacts.whatsapp")} value="+380 95 132 30 33" />
+              <ContactRow label={t("landing.contacts.viber")} value="+380 95 132 30 33" />
             </dl>
           </div>
         </div>

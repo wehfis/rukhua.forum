@@ -4,9 +4,9 @@ import type { Locale } from "@/i18n/routing";
 
 const contact = {
   email: "uahohrru@gmail.com",
-  phone: "+380 00 000 00 00",
-  whatsapp: "+380 00 000 00 00",
-  viber: "+380 00 000 00 00"
+  phone: "+380 95 132 30 33",
+  whatsapp: "+380 95 132 30 33",
+  viber: "+380 95 132 30 33"
 };
 
 export async function SiteFooter({ locale }: { locale: Locale }) {
@@ -42,7 +42,7 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
             </div>
           </dl>
         </div>
-        <div>
+        {/* <div>
           <p className="text-sm font-bold uppercase">{t("footer.social")}</p>
           <div className="mt-3 flex flex-wrap gap-3 text-sm">
             <Link href="#" className="hover:underline">
@@ -55,7 +55,7 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
               YouTube
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="border-t border-border py-4">
         <div className="container text-xs text-muted-foreground">
