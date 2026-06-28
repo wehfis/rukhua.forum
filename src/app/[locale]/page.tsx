@@ -91,7 +91,7 @@ export default async function LandingPage({ params }: PageProps) {
           logo: `${getSiteUrl()}/images/civic-forum-hero.png`,
           contactPoint: {
             "@type": "ContactPoint",
-            email: "info@rukhua.org",
+            email: "uahohrru@gmail.com",
             telephone: "+380000000000"
           }
         }}
@@ -294,14 +294,14 @@ export default async function LandingPage({ params }: PageProps) {
               {t("landing.join.body")}
             </p>
             <Button asChild className="mt-8" size="lg">
-              <a href="mailto:info@rukhua.org">{t("landing.join.button")}</a>
+              <a href="mailto:uahohrru@gmail.com">{t("landing.join.button")}</a>
             </Button>
           </div>
           <div className="border-l border-border pl-6">
             <h3 className="font-serif text-3xl">{t("landing.contacts.title")}</h3>
             <dl className="mt-6 space-y-4 text-sm">
-              <ContactRow label={t("landing.contacts.email")} value="info@rukhua.org" />
-              <ContactRow label={t("landing.contacts.phone")} value="+380 00 000 00 00" />
+              <ContactRow label={t("landing.contacts.email")} value="uahohrru@gmail.com" />
+              <ContactRow label={t("landing.contacts.phone")} value="+380 95 132 3 00" />
               <ContactRow label={t("landing.contacts.whatsapp")} value="+380 00 000 00 00" />
               <ContactRow label={t("landing.contacts.viber")} value="+380 00 000 00 00" />
             </dl>

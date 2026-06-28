@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Locale } from "@/i18n/routing";
 
 const contact = {
-  email: "info@rukhua.org",
+  email: "uahohrru@gmail.com",
   phone: "+380 00 000 00 00",
   whatsapp: "+380 00 000 00 00",
   viber: "+380 00 000 00 00"

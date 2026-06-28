@@ -91,7 +91,7 @@ export default async function ArticlePage({ params }: PageProps) {
           },
           publisher: {
             "@type": "Organization",
-            name: "RukhUA Forum"
+            name: "Громадський Рух розвитку України"
           },
           mainEntityOfPage: localizedUrl(locale, `news/${post.slug}`)
         }}
