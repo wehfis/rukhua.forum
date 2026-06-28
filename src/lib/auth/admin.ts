@@ -16,7 +16,7 @@ export async function getAdminUser() {
   return user;
 }
 
-export async function requireAdmin(locale: Locale) {
+export async function requireAdmin(locale: string) {
   const user = await getAdminUser();
 
   if (!user) {
