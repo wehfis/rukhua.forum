@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { PostForm } from "@/components/admin/post-form";
-import { getPublishedPosts } from "@/features/posts/queries";
+import { getAllPostsByLocale } from "@/features/posts/queries";
 import type { Locale } from "@/i18n/routing";
 
 type PageProps = {
@@ -13,7 +13,7 @@ export default async function EditPostPage({ params }: PageProps) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale });
-  const posts = await getPublishedPosts(locale);
+  const posts = await getAllPostsByLocale(locale);
   const post = posts.find((item) => item.id === id || item.slug === id);
 
   if (!post) {

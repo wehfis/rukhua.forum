@@ -27,11 +27,11 @@ export default async function AdminSettingsPage({ params }: PageProps) {
           </CardHeader>
         </Card>
 <Card>
-           <CardHeader>
-             <CardTitle>Anonymous</CardTitle>
-             <CardDescription>Optional name plus comment, protected by rate limiting.</CardDescription>
-           </CardHeader>
-         </Card>
+          <CardHeader>
+            <CardTitle>Anonymous</CardTitle>
+            <CardDescription>Optional name plus comment, protected by rate limiting.</CardDescription>
+          </CardHeader>
+        </Card>
         <Card>
           <CardHeader>
             <CardTitle>Authenticated</CardTitle>

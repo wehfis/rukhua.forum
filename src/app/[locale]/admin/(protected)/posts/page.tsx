@@ -1,8 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
-import { Edit, Plus } from "lucide-react";
+import { Edit, Plus, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getPublishedPosts } from "@/features/posts/queries";
+import { deletePostAction } from "@/features/posts/actions";
+import { getAllPostsByLocale } from "@/features/posts/queries";
 import type { Locale } from "@/i18n/routing";
 
 type PageProps = {
@@ -14,7 +15,7 @@ export default async function AdminPostsPage({ params }: PageProps) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale });
-  const posts = await getPublishedPosts(locale);
+  const posts = await getAllPostsByLocale(locale);
 
   return (
     <div className="space-y-8">
@@ -25,7 +26,7 @@ export default async function AdminPostsPage({ params }: PageProps) {
         </div>
         <Button asChild>
           <Link href={`/${locale}/admin/posts/new`}>
-            <Plus className="h-4 w-4" aria-hidden="true" />
+            <Plus className="h-4 w-4" />
             {t("admin.newPost")}
           </Link>
         </Button>
@@ -55,12 +56,28 @@ export default async function AdminPostsPage({ params }: PageProps) {
                   )}
                 </td>
                 <td className="px-4 py-4 text-right">
-                  <Button asChild size="sm" variant="secondary">
-                    <Link href={`/${locale}/admin/posts/${post.id}/edit`}>
-                      <Edit className="h-4 w-4" aria-hidden="true" />
-                      Edit
-                    </Link>
-                  </Button>
+                  <div className="flex items-center justify-end gap-2">
+                    <Button asChild size="sm" variant="secondary">
+                      <Link href={`/${locale}/admin/posts/${post.id}/edit`}>
+                        <Edit className="h-4 w-4" />
+                        Edit
+                      </Link>
+                    </Button>
+                    <form action={deletePostAction.bind(null, post.id, locale)}>
+                      <Button
+                        type="submit"
+                        size="sm"
+                        variant="ghost"
+                        onClick={(e) => {
+                          if (!confirm("Delete this post?")) {
+                            e.preventDefault();
+                          }
+                        }}
+                      >
+                        <Trash2 className="h-4 w-4" />
+                      </Button>
+                    </form>
+                  </div>
                 </td>
               </tr>
             ))}

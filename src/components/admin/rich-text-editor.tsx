@@ -155,7 +155,7 @@ export function RichTextEditor({
                   aria-label={item.label}
                   onClick={() => runAction(item.action)}
                 >
-                  <Icon className="h-4 w-4" aria-hidden="true" />
+                  <Icon className="h-4 w-4" />
                 </Button>
               );
             })}

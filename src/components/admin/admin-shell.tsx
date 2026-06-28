@@ -62,14 +62,14 @@ function AdminLink({
 }: {
   href: string;
   label: string;
-  icon: ComponentType<{ className?: string; "aria-hidden"?: boolean }>;
+  icon: ComponentType<{ className?: string }>;
 }) {
   return (
     <Link
       href={href}
       className="flex items-center gap-2 rounded-md px-3 py-2 font-semibold text-muted-foreground hover:bg-white hover:text-foreground"
     >
-      <Icon className="h-4 w-4" aria-hidden="true" />
+      <Icon className="h-4 w-4" />
       {label}
     </Link>
   );

@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { UploadPanel } from "@/components/admin/upload-panel";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { getPublishedPosts } from "@/features/posts/queries";
+import { getAllPostsByLocale } from "@/features/posts/queries";
 import type { Locale } from "@/i18n/routing";
 
 type PageProps = {
@@ -13,7 +13,10 @@ export default async function AdminDashboardPage({ params }: PageProps) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale });
-  const posts = await getPublishedPosts(locale);
+  const posts = await getAllPostsByLocale(locale);
+
+  const publishedCount = posts.filter((p) => p.status === "published").length;
+  const draftsCount = posts.filter((p) => p.status === "draft").length;
 
   return (
     <div className="space-y-8">
@@ -26,8 +29,8 @@ export default async function AdminDashboardPage({ params }: PageProps) {
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
-        <Metric title={t("admin.published")} value={posts.length} />
-        <Metric title={t("admin.drafts")} value={0} />
+        <Metric title={t("admin.published")} value={publishedCount} />
+        <Metric title={t("admin.drafts")} value={draftsCount} />
         <Metric title={t("admin.uploads")} value="S3" />
       </div>
 

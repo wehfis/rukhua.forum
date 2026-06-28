@@ -89,7 +89,7 @@ export function UploadPanel() {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <Button type="button" onClick={onUpload} disabled={isUploading}>
-              <Upload className="h-4 w-4" aria-hidden="true" />
+              <Upload className="h-4 w-4" />
               Upload
             </Button>
             {message ? <p className="text-sm text-muted-foreground">{message}</p> : null}

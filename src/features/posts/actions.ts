@@ -112,15 +112,14 @@ export async function updatePostAction(
   return { ok: true, message: "Post updated." };
 }
 
-export async function deletePostAction(id: string, locale: string): Promise<ActionResult> {
+export async function deletePostAction(id: string, locale: string): Promise<void> {
   const context = await assertAdminAndDb();
 
   if ("ok" in context) {
-    return context;
+    return;
   }
 
   await context.db.delete(posts).where(eq(posts.id, id));
   revalidatePath(`/${locale}/news`);
   revalidatePath(`/${locale}/admin/posts`);
-  return { ok: true, message: "Post deleted." };
 }

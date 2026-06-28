@@ -75,6 +75,27 @@ export async function getPublishedPosts(locale: Locale) {
   return localizedRows.map(mapDbPost);
 }
 
+export async function getAllPostsByLocale(locale: Locale) {
+  const db = getDb();
+
+  if (!db) {
+    return seedPosts
+      .map((post) => localizeSeedPost(post, locale))
+      .sort(
+        (a, b) =>
+          new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+      );
+  }
+
+  const rows = await db
+    .select()
+    .from(posts)
+    .where(eq(posts.locale, locale))
+    .orderBy(desc(posts.updatedAt));
+
+  return rows.map(mapDbPost);
+}
+
 export async function getLatestPosts(locale: Locale, limit = 3) {
   const allPosts = await getPublishedPosts(locale);
   return allPosts.slice(0, limit);

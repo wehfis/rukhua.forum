@@ -153,6 +153,7 @@
     "published": "Published",
     "uploads": "Uploads",
     "dbNotice": "Configure Supabase and DATABASE_URL to enable persistent admin actions.",
+    "publishedDate": "Published",
     "title": "Title",
     "slug": "Slug",
     "description": "Description",

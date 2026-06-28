@@ -66,7 +66,7 @@ export function LikeButton({
       disabled={liked || isPending}
       aria-pressed={liked}
     >
-      <Heart className="h-4 w-4" aria-hidden="true" />
+      <Heart className="h-4 w-4" />
       {count} {label}
     </Button>
   );
