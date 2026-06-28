@@ -1,0 +1,173 @@
+{
+  "brand": {
+    "name": "RukhUA Forum",
+    "fullName": "Public Movement for the Development of Ukraine"
+  },
+  "nav": {
+    "home": "Organization",
+    "news": "News",
+    "platform": "Public Platform",
+    "join": "Join",
+    "admin": "Admin"
+  },
+  "metadata": {
+    "home": {
+      "title": "Public Movement for the Development of Ukraine",
+      "description": "Official public platform for civic initiatives, dialogue, transparency and national development."
+    },
+    "news": {
+      "title": "News and Announcements",
+      "description": "Official news, articles and public announcements from the organization."
+    }
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Official public organization platform",
+      "title": "Public Movement for the Development of Ukraine",
+      "subtitle": "We bring citizens, experts and communities together to develop public initiatives, transparent institutions and sustainable national progress.",
+      "primary": "Read News",
+      "secondary": "Join the Organization"
+    },
+    "about": {
+      "title": "About the Organization",
+      "body": "The organization exists as a trusted public forum for cooperation, civic participation and practical proposals that strengthen Ukraine's democratic development."
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "Our mission is to unite active citizens, professionals and communities around public initiatives that help Ukraine develop responsibly, openly and sustainably.",
+      "items": ["Development of Ukraine", "Cooperation", "Civic participation", "Public initiatives", "Public dialogue"]
+    },
+    "vision": {
+      "title": "Vision",
+      "body": "We work toward a democratic society with transparent institutions, strong communities and development decisions shaped through open dialogue."
+    },
+    "values": {
+      "title": "Core Values",
+      "items": [
+        {"title": "Responsibility", "description": "Public work must be accountable to people and communities."},
+        {"title": "Transparency", "description": "Decisions, processes and results should be understandable and open."},
+        {"title": "Cooperation", "description": "Durable change is built by citizens, experts, institutions and partners together."},
+        {"title": "Innovation", "description": "Modern tools and ideas should serve practical civic outcomes."},
+        {"title": "Patriotism", "description": "Commitment to Ukraine is expressed through useful public action."},
+        {"title": "Professionalism", "description": "Every initiative needs competence, discipline and respect for facts."}
+      ]
+    },
+    "areas": {
+      "title": "Areas of Activity",
+      "items": [
+        {"icon": "sparkles", "title": "Spiritual Development", "description": "Support for dignity, unity and shared moral responsibility."},
+        {"icon": "landmark", "title": "Politics", "description": "Public dialogue on governance and accountable institutions."},
+        {"icon": "chart", "title": "Economy", "description": "Ideas for investment, entrepreneurship and resilient growth."},
+        {"icon": "book", "title": "Education", "description": "Initiatives that strengthen learning and civic competence."},
+        {"icon": "palette", "title": "Culture", "description": "Projects that protect heritage and encourage creative exchange."},
+        {"icon": "trophy", "title": "Sports", "description": "Community wellbeing through active and inclusive participation."},
+        {"icon": "heart", "title": "Medicine", "description": "Public health priorities and practical cooperation with experts."},
+        {"icon": "leaf", "title": "Ecology", "description": "Environmental responsibility and sustainable local development."},
+        {"icon": "scale", "title": "Law", "description": "Legal awareness, rights protection and public oversight."}
+      ]
+    },
+    "structure": {
+      "title": "Organizational Structure",
+      "intro": "The public organization is presented as a clear institutional structure rather than a paper diagram.",
+      "steps": [
+        {"title": "Public Organization", "description": "The legal and civic foundation of the movement."},
+        {"title": "Public Council", "description": "A consultative body for public priorities and strategic dialogue."},
+        {"title": "Head Office", "description": "Coordination, administration and support for national activity."},
+        {"title": "Departments", "description": "Specialized teams responsible for programs and proposals."}
+      ],
+      "departments": [
+        {"title": "Reform Department", "description": "Program placeholder for reform proposals and implementation analysis."},
+        {"title": "Innovation & Investment Department", "description": "Program placeholder for innovation, investment and development initiatives."},
+        {"title": "International Relations Department", "description": "Program placeholder for international cooperation and diaspora links."},
+        {"title": "Management Department", "description": "Program placeholder for operational coordination and governance."},
+        {"title": "Business Proposals Department", "description": "Program placeholder for economic proposals and partner engagement."}
+      ]
+    },
+    "platform": {
+      "title": "Public Platform",
+      "body": "The organization serves as a platform where citizens can share proposals, launch civic initiatives, cooperate with experts and discuss community needs."
+    },
+    "control": {
+      "title": "Public Control",
+      "body": "We support public oversight, open information and transparent institutions as essential conditions for trust."
+    },
+    "roundTables": {
+      "title": "Online Round Tables",
+      "body": "Regular online discussions help gather public opinion, involve experts, discuss important topics and shape practical proposals."
+    },
+    "regional": {
+      "title": "Regional Network",
+      "items": ["Regional", "District", "Municipal", "Territorial Communities", "Village Communities", "Ukrainian Diaspora"]
+    },
+    "latest": {
+      "title": "Latest News",
+      "all": "View All News"
+    },
+    "join": {
+      "title": "Join the Organization",
+      "body": "Citizens, experts, community representatives and partners can participate through proposals, working groups and public discussions.",
+      "button": "Contact Us"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "viber": "Viber"
+    }
+  },
+  "newsPage": {
+    "eyebrow": "Official publications",
+    "title": "News and Announcements",
+    "description": "Articles, public announcements and updates from the organization.",
+    "readMore": "Read More",
+    "published": "Published",
+    "likes": "likes",
+    "comments": "comments",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "articlePage": {
+    "author": "Author",
+    "published": "Published",
+    "likes": "Likes",
+    "comments": "Comments",
+    "commentPlaceholder": "Write a public comment",
+    "nameOptional": "Name (optional)",
+    "submitComment": "Submit Comment",
+    "commentsDisabled": "Comments are disabled for this article.",
+    "authRequired": "Please sign in to comment on this article."
+  },
+  "admin": {
+    "loginTitle": "Administrator Login",
+    "loginDescription": "Sign in with a Supabase administrator account.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "posts": "Posts",
+    "newPost": "Create Post",
+    "settings": "Settings",
+    "drafts": "Drafts",
+    "published": "Published",
+    "uploads": "Uploads",
+    "dbNotice": "Configure Supabase and DATABASE_URL to enable persistent admin actions.",
+    "title": "Title",
+    "slug": "Slug",
+    "description": "Description",
+    "coverImage": "Cover image URL",
+    "status": "Status",
+    "commentMode": "Comment mode",
+    "seoTitle": "SEO title",
+    "seoDescription": "SEO description",
+    "ogImage": "OpenGraph image URL",
+    "saveDraft": "Save Draft",
+    "publish": "Publish",
+    "preview": "Preview Article"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "social": "Social media"
+  }
+}

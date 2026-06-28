@@ -1,0 +1,56 @@
+{
+  "brand": {"name": "RukhUA Forum", "fullName": "Öffentliche Bewegung für die Entwicklung der Ukraine"},
+  "nav": {"home": "Organisation", "news": "Nachrichten", "platform": "Öffentliche Plattform", "join": "Mitmachen", "admin": "Admin"},
+  "metadata": {
+    "home": {"title": "Öffentliche Bewegung für die Entwicklung der Ukraine", "description": "Offizielle öffentliche Plattform für bürgerschaftliche Initiativen, Dialog, Transparenz und nationale Entwicklung."},
+    "news": {"title": "Nachrichten und Bekanntmachungen", "description": "Offizielle Nachrichten, Artikel und öffentliche Bekanntmachungen der Organisation."}
+  },
+  "landing": {
+    "hero": {"eyebrow": "Offizielle Plattform der öffentlichen Organisation", "title": "Öffentliche Bewegung für die Entwicklung der Ukraine", "subtitle": "Wir bringen Bürger, Fachleute und Gemeinden zusammen, um öffentliche Initiativen, transparente Institutionen und nachhaltigen Fortschritt zu fördern.", "primary": "Nachrichten lesen", "secondary": "Der Organisation beitreten"},
+    "about": {"title": "Über die Organisation", "body": "Die Organisation wirkt als vertrauenswürdiges öffentliches Forum für Zusammenarbeit, Beteiligung und praktische Vorschläge, die die demokratische Entwicklung der Ukraine stärken."},
+    "mission": {"title": "Mission", "body": "Unsere Mission ist es, aktive Bürger, Fachleute und Gemeinden rund um Initiativen zu vereinen, die der Ukraine eine verantwortungsvolle, offene und nachhaltige Entwicklung ermöglichen.", "items": ["Entwicklung der Ukraine", "Zusammenarbeit", "Bürgerbeteiligung", "Öffentliche Initiativen", "Öffentlicher Dialog"]},
+    "vision": {"title": "Vision", "body": "Wir arbeiten für eine demokratische Gesellschaft mit transparenten Institutionen, starken Gemeinden und Entscheidungen, die durch offenen Dialog entstehen."},
+    "values": {"title": "Grundwerte", "items": [
+      {"title": "Verantwortung", "description": "Öffentliche Arbeit muss den Menschen und Gemeinden Rechenschaft ablegen."},
+      {"title": "Transparenz", "description": "Entscheidungen, Prozesse und Ergebnisse sollen verständlich und offen sein."},
+      {"title": "Zusammenarbeit", "description": "Dauerhafter Wandel entsteht gemeinsam mit Bürgern, Experten, Institutionen und Partnern."},
+      {"title": "Innovation", "description": "Moderne Werkzeuge und Ideen sollen praktischen öffentlichen Ergebnissen dienen."},
+      {"title": "Patriotismus", "description": "Engagement für die Ukraine zeigt sich in nützlichem öffentlichem Handeln."},
+      {"title": "Professionalität", "description": "Jede Initiative braucht Kompetenz, Disziplin und Respekt vor Fakten."}
+    ]},
+    "areas": {"title": "Tätigkeitsbereiche", "items": [
+      {"icon": "sparkles", "title": "Geistige Entwicklung", "description": "Unterstützung von Würde, Einheit und gemeinsamer moralischer Verantwortung."},
+      {"icon": "landmark", "title": "Politik", "description": "Öffentlicher Dialog über Regierung und rechenschaftspflichtige Institutionen."},
+      {"icon": "chart", "title": "Wirtschaft", "description": "Ideen für Investitionen, Unternehmertum und widerstandsfähiges Wachstum."},
+      {"icon": "book", "title": "Bildung", "description": "Initiativen für Lernen und bürgerschaftliche Kompetenz."},
+      {"icon": "palette", "title": "Kultur", "description": "Projekte zum Schutz des Erbes und zum kreativen Austausch."},
+      {"icon": "trophy", "title": "Sport", "description": "Gemeinwohl durch aktive und inklusive Beteiligung."},
+      {"icon": "heart", "title": "Medizin", "description": "Prioritäten der öffentlichen Gesundheit und Zusammenarbeit mit Experten."},
+      {"icon": "leaf", "title": "Ökologie", "description": "Umweltverantwortung und nachhaltige lokale Entwicklung."},
+      {"icon": "scale", "title": "Recht", "description": "Rechtsbewusstsein, Schutz von Rechten und öffentliche Kontrolle."}
+    ]},
+    "structure": {"title": "Organisationsstruktur", "intro": "Die Organisation wird als klare institutionelle Struktur statt als Papierschema dargestellt.", "steps": [
+      {"title": "Öffentliche Organisation", "description": "Die rechtliche und bürgerschaftliche Grundlage der Bewegung."},
+      {"title": "Öffentlicher Rat", "description": "Ein Beratungsgremium für öffentliche Prioritäten und strategischen Dialog."},
+      {"title": "Hauptbüro", "description": "Koordination, Verwaltung und Unterstützung nationaler Aktivitäten."},
+      {"title": "Abteilungen", "description": "Spezialisierte Teams für Programme und Vorschläge."}
+    ], "departments": [
+      {"title": "Reformabteilung", "description": "Platzhalter für Reformvorschläge und Umsetzungsanalyse."},
+      {"title": "Abteilung Innovation & Investitionen", "description": "Platzhalter für Innovation, Investitionen und Entwicklungsinitiativen."},
+      {"title": "Abteilung Internationale Beziehungen", "description": "Platzhalter für internationale Zusammenarbeit und Diaspora-Verbindungen."},
+      {"title": "Managementabteilung", "description": "Platzhalter für operative Koordination und Governance."},
+      {"title": "Abteilung Geschäftsvorschläge", "description": "Platzhalter für wirtschaftliche Vorschläge und Partnerarbeit."}
+    ]},
+    "platform": {"title": "Öffentliche Plattform", "body": "Die Organisation dient als Plattform, auf der Bürger Vorschläge einbringen, Initiativen starten, mit Experten kooperieren und Gemeindebedürfnisse diskutieren können."},
+    "control": {"title": "Öffentliche Kontrolle", "body": "Wir unterstützen öffentliche Aufsicht, offene Informationen und transparente Institutionen als Grundlage für Vertrauen."},
+    "roundTables": {"title": "Online-Rundtische", "body": "Regelmäßige Online-Diskussionen sammeln öffentliche Meinung, binden Experten ein und formen praktische Vorschläge."},
+    "regional": {"title": "Regionales Netzwerk", "items": ["Regional", "Bezirk", "Kommunal", "Territoriale Gemeinden", "Dorfgemeinden", "Ukrainische Diaspora"]},
+    "latest": {"title": "Neueste Nachrichten", "all": "Alle Nachrichten"},
+    "join": {"title": "Der Organisation beitreten", "body": "Bürger, Experten, Gemeindevertreter und Partner können sich über Vorschläge, Arbeitsgruppen und öffentliche Diskussionen beteiligen.", "button": "Kontakt aufnehmen"},
+    "contacts": {"title": "Kontakte", "email": "Email", "phone": "Telefon", "whatsapp": "WhatsApp", "viber": "Viber"}
+  },
+  "newsPage": {"eyebrow": "Offizielle Veröffentlichungen", "title": "Nachrichten und Bekanntmachungen", "description": "Artikel, öffentliche Bekanntmachungen und Aktualisierungen der Organisation.", "readMore": "Weiterlesen", "published": "Veröffentlicht", "likes": "Likes", "comments": "Kommentare", "previous": "Zurück", "next": "Weiter"},
+  "articlePage": {"author": "Autor", "published": "Veröffentlicht", "likes": "Likes", "comments": "Kommentare", "commentPlaceholder": "Öffentlichen Kommentar schreiben", "nameOptional": "Name (optional)", "submitComment": "Kommentar senden", "commentsDisabled": "Kommentare sind für diesen Artikel deaktiviert.", "authRequired": "Bitte melden Sie sich an, um zu kommentieren."},
+  "admin": {"loginTitle": "Administrator-Anmeldung", "loginDescription": "Mit einem Supabase-Administratorkonto anmelden.", "email": "Email", "password": "Passwort", "signIn": "Anmelden", "signOut": "Abmelden", "dashboard": "Dashboard", "posts": "Beiträge", "newPost": "Beitrag erstellen", "settings": "Einstellungen", "drafts": "Entwürfe", "published": "Veröffentlicht", "uploads": "Uploads", "dbNotice": "Supabase und DATABASE_URL konfigurieren, um permanente Admin-Aktionen zu aktivieren.", "title": "Titel", "slug": "Slug", "description": "Beschreibung", "coverImage": "Titelbild-URL", "status": "Status", "commentMode": "Kommentarmodus", "seoTitle": "SEO-Titel", "seoDescription": "SEO-Beschreibung", "ogImage": "OpenGraph-Bild-URL", "saveDraft": "Entwurf speichern", "publish": "Veröffentlichen", "preview": "Artikelvorschau"},
+  "footer": {"rights": "Alle Rechte vorbehalten.", "social": "Soziale Medien"}
+}

@@ -1,0 +1,56 @@
+{
+  "brand": {"name": "RukhUA Forum", "fullName": "Movimento pubblico per lo sviluppo dell'Ucraina"},
+  "nav": {"home": "Organizzazione", "news": "Notizie", "platform": "Piattaforma pubblica", "join": "Partecipa", "admin": "Admin"},
+  "metadata": {
+    "home": {"title": "Movimento pubblico per lo sviluppo dell'Ucraina", "description": "Piattaforma pubblica ufficiale per iniziative civiche, dialogo, trasparenza e sviluppo nazionale."},
+    "news": {"title": "Notizie e annunci", "description": "Notizie ufficiali, articoli e annunci pubblici dell'organizzazione."}
+  },
+  "landing": {
+    "hero": {"eyebrow": "Piattaforma ufficiale dell'organizzazione pubblica", "title": "Movimento pubblico per lo sviluppo dell'Ucraina", "subtitle": "Mettiamo insieme cittadini, esperti e comunità per sviluppare iniziative pubbliche, istituzioni trasparenti e progresso nazionale sostenibile.", "primary": "Leggi le notizie", "secondary": "Unisciti all'organizzazione"},
+    "about": {"title": "Sull'organizzazione", "body": "L'organizzazione opera come forum pubblico affidabile per cooperazione, partecipazione civica e proposte pratiche che rafforzano lo sviluppo democratico dell'Ucraina."},
+    "mission": {"title": "Missione", "body": "La nostra missione è unire cittadini attivi, professionisti e comunità attorno a iniziative che aiutano l'Ucraina a svilupparsi in modo responsabile, aperto e sostenibile.", "items": ["Sviluppo dell'Ucraina", "Cooperazione", "Partecipazione civica", "Iniziative pubbliche", "Dialogo pubblico"]},
+    "vision": {"title": "Visione", "body": "Lavoriamo per una società democratica con istituzioni trasparenti, comunità forti e decisioni costruite attraverso un dialogo aperto."},
+    "values": {"title": "Valori fondamentali", "items": [
+      {"title": "Responsabilità", "description": "Il lavoro pubblico deve rispondere alle persone e alle comunità."},
+      {"title": "Trasparenza", "description": "Decisioni, processi e risultati devono essere comprensibili e aperti."},
+      {"title": "Cooperazione", "description": "Il cambiamento duraturo si costruisce con cittadini, esperti, istituzioni e partner."},
+      {"title": "Innovazione", "description": "Strumenti e idee moderni devono servire risultati civici concreti."},
+      {"title": "Patriottismo", "description": "L'impegno verso l'Ucraina si esprime attraverso azioni pubbliche utili."},
+      {"title": "Professionalità", "description": "Ogni iniziativa richiede competenza, disciplina e rispetto dei fatti."}
+    ]},
+    "areas": {"title": "Aree di attività", "items": [
+      {"icon": "sparkles", "title": "Sviluppo spirituale", "description": "Sostegno a dignità, unità e responsabilità morale condivisa."},
+      {"icon": "landmark", "title": "Politica", "description": "Dialogo pubblico su governance e istituzioni responsabili."},
+      {"icon": "chart", "title": "Economia", "description": "Idee per investimenti, imprenditorialità e crescita resiliente."},
+      {"icon": "book", "title": "Istruzione", "description": "Iniziative che rafforzano apprendimento e competenza civica."},
+      {"icon": "palette", "title": "Cultura", "description": "Progetti che proteggono il patrimonio e incoraggiano lo scambio creativo."},
+      {"icon": "trophy", "title": "Sport", "description": "Benessere delle comunità attraverso partecipazione attiva e inclusiva."},
+      {"icon": "heart", "title": "Medicina", "description": "Priorità di salute pubblica e cooperazione pratica con esperti."},
+      {"icon": "leaf", "title": "Ecologia", "description": "Responsabilità ambientale e sviluppo locale sostenibile."},
+      {"icon": "scale", "title": "Diritto", "description": "Consapevolezza giuridica, tutela dei diritti e controllo pubblico."}
+    ]},
+    "structure": {"title": "Struttura organizzativa", "intro": "L'organizzazione è presentata come struttura istituzionale chiara invece che come schema cartaceo.", "steps": [
+      {"title": "Organizzazione pubblica", "description": "La base giuridica e civica del movimento."},
+      {"title": "Consiglio pubblico", "description": "Organo consultivo per priorità pubbliche e dialogo strategico."},
+      {"title": "Sede centrale", "description": "Coordinamento, amministrazione e supporto all'attività nazionale."},
+      {"title": "Dipartimenti", "description": "Team specializzati responsabili di programmi e proposte."}
+    ], "departments": [
+      {"title": "Dipartimento riforme", "description": "Segnaposto per proposte di riforma e analisi dell'attuazione."},
+      {"title": "Dipartimento innovazione e investimenti", "description": "Segnaposto per innovazione, investimenti e iniziative di sviluppo."},
+      {"title": "Dipartimento relazioni internazionali", "description": "Segnaposto per cooperazione internazionale e legami con la diaspora."},
+      {"title": "Dipartimento gestione", "description": "Segnaposto per coordinamento operativo e governance."},
+      {"title": "Dipartimento proposte d'impresa", "description": "Segnaposto per proposte economiche e coinvolgimento dei partner."}
+    ]},
+    "platform": {"title": "Piattaforma pubblica", "body": "L'organizzazione è una piattaforma in cui i cittadini possono condividere proposte, avviare iniziative, collaborare con esperti e discutere i bisogni delle comunità."},
+    "control": {"title": "Controllo pubblico", "body": "Sosteniamo supervisione pubblica, informazioni aperte e istituzioni trasparenti come condizioni essenziali per la fiducia."},
+    "roundTables": {"title": "Tavole rotonde online", "body": "Discussioni online regolari aiutano a raccogliere opinioni, coinvolgere esperti e costruire proposte pratiche."},
+    "regional": {"title": "Rete regionale", "items": ["Regionale", "Distrettuale", "Municipale", "Comunità territoriali", "Comunità rurali", "Diaspora ucraina"]},
+    "latest": {"title": "Ultime notizie", "all": "Vedi tutte le notizie"},
+    "join": {"title": "Unisciti all'organizzazione", "body": "Cittadini, esperti, rappresentanti delle comunità e partner possono partecipare con proposte, gruppi di lavoro e discussioni pubbliche.", "button": "Contattaci"},
+    "contacts": {"title": "Contatti", "email": "Email", "phone": "Telefono", "whatsapp": "WhatsApp", "viber": "Viber"}
+  },
+  "newsPage": {"eyebrow": "Pubblicazioni ufficiali", "title": "Notizie e annunci", "description": "Articoli, annunci pubblici e aggiornamenti dell'organizzazione.", "readMore": "Leggi di più", "published": "Pubblicato", "likes": "mi piace", "comments": "commenti", "previous": "Precedente", "next": "Successivo"},
+  "articlePage": {"author": "Autore", "published": "Pubblicato", "likes": "Mi piace", "comments": "Commenti", "commentPlaceholder": "Scrivi un commento pubblico", "nameOptional": "Nome (facoltativo)", "submitComment": "Invia commento", "commentsDisabled": "I commenti sono disabilitati per questo articolo.", "authRequired": "Accedi per commentare questo articolo."},
+  "admin": {"loginTitle": "Accesso amministratore", "loginDescription": "Accedi con un account amministratore Supabase.", "email": "Email", "password": "Password", "signIn": "Accedi", "signOut": "Esci", "dashboard": "Dashboard", "posts": "Articoli", "newPost": "Crea articolo", "settings": "Impostazioni", "drafts": "Bozze", "published": "Pubblicati", "uploads": "Caricamenti", "dbNotice": "Configura Supabase e DATABASE_URL per abilitare azioni amministrative persistenti.", "title": "Titolo", "slug": "Slug", "description": "Descrizione", "coverImage": "URL immagine di copertina", "status": "Stato", "commentMode": "Modalità commenti", "seoTitle": "Titolo SEO", "seoDescription": "Descrizione SEO", "ogImage": "URL immagine OpenGraph", "saveDraft": "Salva bozza", "publish": "Pubblica", "preview": "Anteprima articolo"},
+  "footer": {"rights": "Tutti i diritti riservati.", "social": "Social media"}
+}

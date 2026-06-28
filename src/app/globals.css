@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 44 31% 97%;
+  --foreground: 0 0% 8%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 8%;
+  --primary: 211 61% 23%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 40 14% 92%;
+  --muted-foreground: 36 6% 36%;
+  --accent: 207 24% 20%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 70% 40%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 36 13% 80%;
+  --input: 36 13% 80%;
+  --ring: 211 61% 23%;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-feature-settings: "kern";
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+.font-editorial {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+::selection {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.editorial-prose {
+  @apply text-lg leading-8 text-foreground;
+}
+
+.editorial-prose p {
+  @apply my-6;
+}
+
+.editorial-prose h2 {
+  @apply mb-4 mt-12 font-serif text-3xl leading-tight;
+}
+
+.editorial-prose h3 {
+  @apply mb-3 mt-8 font-serif text-2xl leading-tight;
+}
+
+.editorial-prose blockquote {
+  @apply my-8 border-l-2 border-primary pl-6 font-serif text-2xl leading-9 text-muted-foreground;
+}
+
+.editorial-prose ul,
+.editorial-prose ol {
+  @apply my-6 ml-6 space-y-2;
+}
+
+.editorial-prose ul {
+  @apply list-disc;
+}
+
+.editorial-prose ol {
+  @apply list-decimal;
+}
+
+.editorial-prose hr {
+  @apply my-10 border-border;
+}

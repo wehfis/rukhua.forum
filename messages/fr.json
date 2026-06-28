@@ -1,0 +1,56 @@
+{
+  "brand": {"name": "RukhUA Forum", "fullName": "Mouvement public pour le développement de l'Ukraine"},
+  "nav": {"home": "Organisation", "news": "Actualités", "platform": "Plateforme publique", "join": "Participer", "admin": "Admin"},
+  "metadata": {
+    "home": {"title": "Mouvement public pour le développement de l'Ukraine", "description": "Plateforme publique officielle pour les initiatives citoyennes, le dialogue, la transparence et le développement national."},
+    "news": {"title": "Actualités et annonces", "description": "Actualités officielles, articles et annonces publiques de l'organisation."}
+  },
+  "landing": {
+    "hero": {"eyebrow": "Plateforme officielle de l'organisation publique", "title": "Mouvement public pour le développement de l'Ukraine", "subtitle": "Nous réunissons citoyens, experts et communautés pour développer des initiatives publiques, des institutions transparentes et un progrès national durable.", "primary": "Lire les actualités", "secondary": "Rejoindre l'organisation"},
+    "about": {"title": "À propos de l'organisation", "body": "L'organisation agit comme un forum public de confiance pour la coopération, la participation civique et les propositions concrètes qui renforcent le développement démocratique de l'Ukraine."},
+    "mission": {"title": "Mission", "body": "Notre mission est d'unir citoyens actifs, professionnels et communautés autour d'initiatives qui aident l'Ukraine à se développer de manière responsable, ouverte et durable.", "items": ["Développement de l'Ukraine", "Coopération", "Participation civique", "Initiatives publiques", "Dialogue public"]},
+    "vision": {"title": "Vision", "body": "Nous travaillons pour une société démocratique dotée d'institutions transparentes, de communautés fortes et de décisions façonnées par un dialogue ouvert."},
+    "values": {"title": "Valeurs fondamentales", "items": [
+      {"title": "Responsabilité", "description": "L'action publique doit rendre des comptes aux personnes et aux communautés."},
+      {"title": "Transparence", "description": "Les décisions, les processus et les résultats doivent être compréhensibles et ouverts."},
+      {"title": "Coopération", "description": "Le changement durable se construit avec les citoyens, les experts, les institutions et les partenaires."},
+      {"title": "Innovation", "description": "Les outils et idées modernes doivent servir des résultats civiques concrets."},
+      {"title": "Patriotisme", "description": "L'engagement envers l'Ukraine s'exprime par une action publique utile."},
+      {"title": "Professionnalisme", "description": "Chaque initiative exige compétence, discipline et respect des faits."}
+    ]},
+    "areas": {"title": "Domaines d'activité", "items": [
+      {"icon": "sparkles", "title": "Développement spirituel", "description": "Soutien à la dignité, à l'unité et à la responsabilité morale commune."},
+      {"icon": "landmark", "title": "Politique", "description": "Dialogue public sur la gouvernance et les institutions responsables."},
+      {"icon": "chart", "title": "Économie", "description": "Idées pour l'investissement, l'entrepreneuriat et la croissance résiliente."},
+      {"icon": "book", "title": "Éducation", "description": "Initiatives qui renforcent l'apprentissage et les compétences civiques."},
+      {"icon": "palette", "title": "Culture", "description": "Projets qui protègent le patrimoine et encouragent l'échange créatif."},
+      {"icon": "trophy", "title": "Sport", "description": "Bien-être communautaire par une participation active et inclusive."},
+      {"icon": "heart", "title": "Médecine", "description": "Priorités de santé publique et coopération pratique avec les experts."},
+      {"icon": "leaf", "title": "Écologie", "description": "Responsabilité environnementale et développement local durable."},
+      {"icon": "scale", "title": "Droit", "description": "Culture juridique, protection des droits et contrôle public."}
+    ]},
+    "structure": {"title": "Structure organisationnelle", "intro": "L'organisation est présentée comme une structure institutionnelle claire plutôt qu'un schéma papier.", "steps": [
+      {"title": "Organisation publique", "description": "La base juridique et civique du mouvement."},
+      {"title": "Conseil public", "description": "Organe consultatif pour les priorités publiques et le dialogue stratégique."},
+      {"title": "Siège", "description": "Coordination, administration et soutien de l'activité nationale."},
+      {"title": "Départements", "description": "Équipes spécialisées responsables des programmes et propositions."}
+    ], "departments": [
+      {"title": "Département des réformes", "description": "Espace réservé aux propositions de réforme et à l'analyse de mise en œuvre."},
+      {"title": "Département innovation et investissement", "description": "Espace réservé aux initiatives d'innovation, d'investissement et de développement."},
+      {"title": "Département des relations internationales", "description": "Espace réservé à la coopération internationale et aux liens avec la diaspora."},
+      {"title": "Département de gestion", "description": "Espace réservé à la coordination opérationnelle et à la gouvernance."},
+      {"title": "Département des propositions commerciales", "description": "Espace réservé aux propositions économiques et aux partenariats."}
+    ]},
+    "platform": {"title": "Plateforme publique", "body": "L'organisation sert de plateforme où les citoyens peuvent partager des propositions, lancer des initiatives, coopérer avec des experts et discuter des besoins des communautés."},
+    "control": {"title": "Contrôle public", "body": "Nous soutenons la surveillance publique, l'information ouverte et les institutions transparentes comme conditions essentielles de confiance."},
+    "roundTables": {"title": "Tables rondes en ligne", "body": "Des discussions régulières en ligne permettent de recueillir l'opinion publique, d'impliquer des experts et de construire des propositions pratiques."},
+    "regional": {"title": "Réseau régional", "items": ["Régional", "District", "Municipal", "Communautés territoriales", "Communautés villageoises", "Diaspora ukrainienne"]},
+    "latest": {"title": "Dernières actualités", "all": "Voir toutes les actualités"},
+    "join": {"title": "Rejoindre l'organisation", "body": "Citoyens, experts, représentants des communautés et partenaires peuvent participer par des propositions, groupes de travail et discussions publiques.", "button": "Nous contacter"},
+    "contacts": {"title": "Contacts", "email": "Email", "phone": "Téléphone", "whatsapp": "WhatsApp", "viber": "Viber"}
+  },
+  "newsPage": {"eyebrow": "Publications officielles", "title": "Actualités et annonces", "description": "Articles, annonces publiques et mises à jour de l'organisation.", "readMore": "Lire la suite", "published": "Publié", "likes": "mentions", "comments": "commentaires", "previous": "Précédent", "next": "Suivant"},
+  "articlePage": {"author": "Auteur", "published": "Publié", "likes": "Mentions", "comments": "Commentaires", "commentPlaceholder": "Écrire un commentaire public", "nameOptional": "Nom (facultatif)", "submitComment": "Envoyer le commentaire", "commentsDisabled": "Les commentaires sont désactivés pour cet article.", "authRequired": "Veuillez vous connecter pour commenter cet article."},
+  "admin": {"loginTitle": "Connexion administrateur", "loginDescription": "Connectez-vous avec un compte administrateur Supabase.", "email": "Email", "password": "Mot de passe", "signIn": "Connexion", "signOut": "Déconnexion", "dashboard": "Tableau de bord", "posts": "Articles", "newPost": "Créer un article", "settings": "Paramètres", "drafts": "Brouillons", "published": "Publié", "uploads": "Téléversements", "dbNotice": "Configurez Supabase et DATABASE_URL pour activer les actions administrateur persistantes.", "title": "Titre", "slug": "Slug", "description": "Description", "coverImage": "URL de l'image de couverture", "status": "Statut", "commentMode": "Mode de commentaire", "seoTitle": "Titre SEO", "seoDescription": "Description SEO", "ogImage": "URL de l'image OpenGraph", "saveDraft": "Enregistrer le brouillon", "publish": "Publier", "preview": "Prévisualiser l'article"},
+  "footer": {"rights": "Tous droits réservés.", "social": "Réseaux sociaux"}
+}
