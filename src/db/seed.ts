@@ -1,4 +1,4 @@
-import { posts } from "./schema";
+import { posts, users } from "./schema";
 import { closeDb, getDb } from "./client";
 import { seedPosts } from "../features/posts/seed";
 import { routing, type Locale } from "../i18n/routing";
@@ -9,6 +9,16 @@ async function main() {
   if (!db) {
     throw new Error("DATABASE_URL is required to seed the database.");
   }
+
+  const adminUuid = "00000000-0000-0000-0000-000000000000";
+  await db
+    .insert(users)
+    .values({
+      id: adminUuid,
+      email: "admin@rukhua.com",
+      role: "admin"
+    })
+    .onConflictDoNothing();
 
   for (const seedPost of seedPosts) {
     for (const locale of routing.locales) {
